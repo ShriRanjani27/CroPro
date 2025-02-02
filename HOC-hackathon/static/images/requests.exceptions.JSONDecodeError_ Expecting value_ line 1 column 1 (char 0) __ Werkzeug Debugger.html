@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<!-- saved from url=(0030)http://127.0.0.1:5000/articles -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+ // Werkzeug Debugger</title>
+    <link rel="stylesheet" href="./requests.exceptions.JSONDecodeError_ Expecting value_ line 1 column 1 (char 0) __ Werkzeug Debugger_files/style.css">
+    <link rel="shortcut icon" href="./requests.exceptions.JSONDecodeError_ Expecting value_ line 1 column 1 (char 0) __ Werkzeug Debugger_files/console.png">
+    <script src="./requests.exceptions.JSONDecodeError_ Expecting value_ line 1 column 1 (char 0) __ Werkzeug Debugger_files/debugger.js.download"></script><style type="text/css" id="operaUserStyle"></style>
+    <script>
+      var CONSOLE_MODE = false,
+          EVALEX = true,
+          EVALEX_TRUSTED = false,
+          SECRET = "xWOz0n14sWAOwhyFrd83";
+    </script>
+  <style type="text/css"></style><meta name="x-ce-data" ceid="anmbbeeiaollmpadookgoakpfjkbidaf" content="WVofAzaCgXDSUrDfDmtpNpSaHQeh7hM7+U7SetUknw8Bn53tb4k8Qod+ISLW6e4r"></head>
+  <body style="background-color: #fff">
+    <div class="debugger">
+<h1>JSONDecodeError</h1>
+<div class="detail">
+  <p class="errormsg">requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+</p>
+</div>
+<h2 class="traceback" style="cursor: pointer;">Traceback <em>(most recent call last)</em></h2>
+<div class="traceback">
+  <h3></h3>
+  <ul><li><div class="frame" id="frame-2374647398176">
+  <h4>File <cite class="filename">"C:\Users\shell\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\models.py"</cite>,
+      line <em class="line">971</em>,
+      in <code class="function">json</code></h4>
+  <div class="source library"><pre class="line before"><span class="ws">                    </span>pass<img src="./requests.exceptions.JSONDecodeError_ Expecting value_ line 1 column 1 (char 0) __ Werkzeug Debugger_files/console.png" title="Open an interactive python shell in this frame"></pre>
+<pre class="line before"><span class="ws">                </span>except JSONDecodeError as e:<img src="./requests.exceptions.JSONDecodeError_ Expecting value_ line 1 column 1 (char 0) __ Werkzeug Debugger_files/console.png" title="Open an interactive python shell in this frame"></pre>
+<pre class="line before"><span class="ws">                    </span>raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)<img src="./requests.exceptions.JSONDecodeError_ Expecting value_ line 1 column 1 (char 0) __ Werkzeug Debugger_files/console.png" title="Open an interactive python shell in this frame"></pre>
+<pre class="line before"><span class="ws"></span> <img src="./requests.exceptions.JSONDecodeError_ Expecting value_ line 1 column 1 (char 0) __ Werkzeug Debugger_files/console.png" title="Open an interactive python shell in this frame"></pre>
+<pre class="line before"><span class="ws">        </span>try:<img src="./requests.exceptions.JSONDecodeError_ Expecting value_ line 1 column 1 (char 0) __ Werkzeug Debugger_files/console.png" title="Open an interactive python shell in this frame"></pre>
+<pre class="line current"><span class="ws">            </span>return complexjson.loads(self.text, **kwargs)<img src="./requests.exceptions.JSONDecodeError_ Expecting value_ line 1 column 1 (char 0) __ Werkzeug Debugger_files/console.png" title="Open an interactive python shell in this frame"></pre>
+<pre class="line after"><span class="ws">        </span>except JSONDecodeError as e:<img src="./requests.exceptions.JSONDecodeError_ Expecting value_ line 1 column 1 (char 0) __ Werkzeug Debugger_files/console.png" title="Open an interactive python shell in this frame"></pre>
+<pre class="line after"><span class="ws">            </span># Catch JSON-related errors and raise as requests.JSONDecodeError<img src="./requests.exceptions.JSONDecodeError_ Expecting value_ line 1 column 1 (char 0) __ Werkzeug Debugger_files/console.png" title="Open an interactive python shell in this frame"></pre>
+<pre class="line after"><span class="ws">            </span># This aliases json.JSONDecodeError and simplejson.JSONDecodeError<img src="./requests.exceptions.JSONDecodeError_ Expecting value_ line 1 column 1 (char 0) __ Werkzeug Debugger_files/console.png" title="Open an interactive python shell in this frame"></pre>
+<pre class="line after"><span class="ws">            </span>raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)<img src="./requests.exceptions.JSONDecodeError_ Expecting value_ line 1 column 1 (char 0) __ Werkzeug Debugger_files/console.png" title="Open an interactive python shell in this frame"></pre>
+<pre class="line after"><span class="ws"></span> <img src="./requests.exceptions.JSONDecodeError_ Expecting value_ line 1 column 1 (char 0) __ Werkzeug Debugger_files/console.png" title="Open an interactive python shell in this frame"></pre></div>
+</div>
+
+</li><li><div class="frame" id="frame-2374647398288">
+  <h4>File <cite class="filename">"C:\Users\shell\AppData\Local\Programs\Python\Python39\lib\json\__init__.py"</cite>,
+      line <em class="line">346</em>,
+      in <code class="function">loads</code></h4>
+  <div class="source library"><pre class="line before"><span class="ws">        </span>s = s.decode(detect_encoding(s), 'surrogatepass')<img src="./requests.exceptions.JSONDecodeError_ Expecting value_ line 1 column 1 (char 0) __ Werkzeug Debugger_files/console.png" title="Open an interactive python shell in this frame"></pre>
+<pre class="line before"><span class="ws"></span> <img src="./requests.exceptions.JSONDecodeError_ Expecting value_ line 1 column 1 (char 0) __ Werkzeug Debugger_files/console.png" title="Open an interactive python shell in this frame"></pre>
+<pre class="line before"><span class="ws">    </span>if (cls is None and object_hook is None and<img src="./requests.exceptions.JSONDecodeError_ Expecting value_ line 1 column 1 (char 0) __ Werkzeug Debugger_files/console.png" title="Open an interactive python shell in this frame"></pre>
+<pre class="line before"><span class="ws">            </span>parse_int is None and parse_float is None and<img src="./requests.exceptions.JSONDecodeError_ Expecting value_ line 1 column 1 (char 0) __ Werkzeug Debugger_files/console.png" title="Open an interactive python shell in this frame"></pre>
+<pre class="line before"><span class="ws">            </span>parse_constant is None and object_pairs_hook is None and not kw):<img src="./requests.exceptions.JSONDecodeError_ Expecting value_ line 1 column 1 (char 0) __ Werkzeug Debugger_files/console.png" title="Open an interactive python shell in this frame"></pre>
+<pre class="line current"><span class="ws">        </span>return _default_decoder.decode(s)<img src="./requests.exceptions.JSONDecodeError_ Expecting value_ line 1 column 1 (char 0) __ Werkzeug Debugger_files/console.png" title="Open an interactive python shell in this frame"></pre>
+<pre class="line after"><span class="ws">    </span>if cls is None:<img src="./requests.exceptions.JSONDecodeError_ Expecting value_ line 1 column 1 (char 0) __ Werkzeug Debugger_files/console.png" title="Open an interactive python shell in this frame"></pre>
+<pre class="line after"><span class="ws">        </span>cls = JSONDecoder<img src="./requests.exceptions.JSONDecodeError_ Expecting value_ line 1 column 1 (char 0) __ Werkzeug Debugger_files/console.png" title="Open an interactive python shell in this frame"></pre>
+<pre class="line after"><span class="ws">    </span>if object_hook is not None:<img src="./requests.exceptions.JSONDecodeError_ Expecting value_ line 1 column 1 (char 0) __ Werkzeug Debugger_files/console.png" title="Open an interactive python shell in this frame"></pre>
+<pre class="line after"><span class="ws">        </span>kw['object_hook'] = object_hook<img src="./requests.exceptions.JSONDecodeError_ Expecting value_ line 1 column 1 (char 0) __ Werkzeug Debugger_files/console.png" title="Open an interactive python shell in this frame"></pre>
+<pre class="line after"><span class="ws">    </span>if object_pairs_hook is not None:<img src="./requests.exceptions.JSONDecodeError_ Expecting value_ line 1 column 1 (char 0) __ Werkzeug Debugger_files/console.png" title="Open an interactive python shell in this frame"></pre></div>
+</div>
+
+</li><li><div class="frame" id="frame-2374647447616">
+  <h4>File <cite class="filename">"C:\Users\shell\AppData\Local\Programs\Python\Python39\lib\json\decoder.py"</cite>,
+      line <em class="line">337</em>,
+      in <code class="function">decode</code></h4>
+  <div class="source library"><pre class="line before"><span class="ws">    </span>def decode(self, s, _w=WHITESPACE.match):<img src="./requests.exceptions.JSONDecodeError_ Expecting value_ line 1 column 1 (char 0) __ Werkzeug Debugger_files/console.png" title="Open an interactive python shell in this frame"></pre>
+<pre class="line before"><span class="ws">        </span>"""Return the Python representation of ``s`` (a ``str`` instance<img src="./requests.exceptions.JSONDecodeError_ Expecting value_ line 1 column 1 (char 0) __ Werkzeug Debugger_files/console.png" title="Open an interactive python shell in this frame"></pre>
+<pre class="line before"><span class="ws">        </span>containing a JSON document).<img src="./requests.exceptions.JSONDecodeError_ Expecting value_ line 1 column 1 (char 0) __ Werkzeug Debugger_files/console.png" title="Open an interactive python shell in this frame"></pre>
+<pre class="line before"><span class="ws"></span> <img src="./requests.exceptions.JSONDecodeError_ Expecting value_ line 1 column 1 (char 0) __ Werkzeug Debugger_files/console.png" title="Open an interactive python shell in this frame"></pre>
+<pre class="line before"><span class="ws">        </span>"""<img src="./requests.exceptions.JSONDecodeError_ Expecting value_ line 1 column 1 (char 0) __ Werkzeug Debugger_files/console.png" title="Open an interactive python shell in this frame"></pre>
+<pre class="line current"><span class="ws">        </span>obj, end = self.raw_decode(s, idx=_w(s, 0).end())<img src="./requests.exceptions.JSONDecodeError_ Expecting value_ line 1 column 1 (char 0) __ Werkzeug Debugger_files/console.png" title="Open an interactive python shell in this frame"></pre>
+<pre class="line after"><span class="ws">        </span>end = _w(s, end).end()<img src="./requests.exceptions.JSONDecodeError_ Expecting value_ line 1 column 1 (char 0) __ Werkzeug Debugger_files/console.png" title="Open an interactive python shell in this frame"></pre>
+<pre class="line after"><span class="ws">        </span>if end != len(s):<img src="./requests.exceptions.JSONDecodeError_ Expecting value_ line 1 column 1 (char 0) __ Werkzeug Debugger_files/console.png" title="Open an interactive python shell in this frame"></pre>
+<pre class="line after"><span class="ws">            </span>raise JSONDecodeError("Extra data", s, end)<img src="./requests.exceptions.JSONDecodeError_ Expecting value_ line 1 column 1 (char 0) __ Werkzeug Debugger_files/console.png" title="Open an interactive python shell in this frame"></pre>
+<pre class="line after"><span class="ws">        </span>return obj<img src="./requests.exceptions.JSONDecodeError_ Expecting value_ line 1 column 1 (char 0) __ Werkzeug Debugger_files/console.png" title="Open an interactive python shell in this frame"></pre>
+<pre class="line after"><span class="ws"></span> <img src="./requests.exceptions.JSONDecodeError_ Expecting value_ line 1 column 1 (char 0) __ Werkzeug Debugger_files/console.png" title="Open an interactive python shell in this frame"></pre></div>
+</div>
+
+</li><li><div class="frame" id="frame-2374647450640">
+  <h4>File <cite class="filename">"C:\Users\shell\AppData\Local\Programs\Python\Python39\lib\json\decoder.py"</cite>,
+      line <em class="line">355</em>,
+      in <code class="function">raw_decode</code></h4>
+  <div class="source library"><pre class="line before"><span class="ws"></span> <img src="./requests.exceptions.JSONDecodeError_ Expecting value_ line 1 column 1 (char 0) __ Werkzeug Debugger_files/console.png" title="Open an interactive python shell in this frame"></pre>
+<pre class="line before"><span class="ws">        </span>"""<img src="./requests.exceptions.JSONDecodeError_ Expecting value_ line 1 column 1 (char 0) __ Werkzeug Debugger_files/console.png" title="Open an interactive python shell in this frame"></pre>
+<pre class="line before"><span class="ws">        </span>try:<img src="./requests.exceptions.JSONDecodeError_ Expecting value_ line 1 column 1 (char 0) __ Werkzeug Debugger_files/console.png" title="Open an interactive python shell in this frame"></pre>
+<pre class="line before"><span class="ws">            </span>obj, end = self.scan_once(s, idx)<img src="./requests.exceptions.JSONDecodeError_ Expecting value_ line 1 column 1 (char 0) __ Werkzeug Debugger_files/console.png" title="Open an interactive python shell in this frame"></pre>
+<pre class="line before"><span class="ws">        </span>except StopIteration as err:<img src="./requests.exceptions.JSONDecodeError_ Expecting value_ line 1 column 1 (char 0) __ Werkzeug Debugger_files/console.png" title="Open an interactive python shell in this frame"></pre>
+<pre class="line current"><span class="ws">            </span>raise JSONDecodeError("Expecting value", s, err.value) from None<img src="./requests.exceptions.JSONDecodeError_ Expecting value_ line 1 column 1 (char 0) __ Werkzeug Debugger_files/console.png" title="Open an interactive python shell in this frame"></pre>
+<pre class="line after"><span class="ws">        </span>return obj, end<img src="./requests.exceptions.JSONDecodeError_ Expecting value_ line 1 column 1 (char 0) __ Werkzeug Debugger_files/console.png" title="Open an interactive python shell in this frame"></pre></div>
+</div>
+
+</li><li><div class="exc-divider">During handling of the above exception, another exception occurred:</div>
+</li><li><div class="frame" id="frame-2374645950160">
+  <h4>File <cite class="filename">"C:\Users\shell\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py"</cite>,
+      line <em class="line">1498</em>,
+      in <code class="function">__call__</code></h4>
+  <div class="source library"><pre class="line before"><span class="ws">    </span>) -&gt; cabc.Iterable[bytes]:<img src="./requests.exceptions.JSONDecodeError_ Expecting value_ line 1 column 1 (char 0) __ Werkzeug Debugger_files/console.png" title="Open an interactive python shell in this frame"></pre>
+<pre class="line before"><span class="ws">        </span>"""The WSGI server calls the Flask application object as the<img src="./requests.exceptions.JSONDecodeError_ Expecting value_ line 1 column 1 (char 0) __ Werkzeug Debugger_files/console.png" title="Open an interactive python shell in this frame"></pre>
+<pre class="line before"><span class="ws">        </span>WSGI application. This calls :meth:`wsgi_app`, which can be<img src="./requests.exceptions.JSONDecodeError_ Expecting value_ line 1 column 1 (char 0) __ Werkzeug Debugger_files/console.png" title="Open an interactive python shell in this frame"></pre>
+<pre class="line before"><span class="ws">        </span>wrapped to apply middleware.<img src="./requests.exceptions.JSONDecodeError_ Expecting value_ line 1 column 1 (char 0) __ Werkzeug Debugger_files/console.png" title="Open an interactive python shell in this frame"></pre>
+<pre class="line before"><span class="ws">        </span>"""<img src="./requests.exceptions.JSONDecodeError_ Expecting value_ line 1 column 1 (char 0) __ Werkzeug Debugger_files/console.png" title="Open an interactive python shell in this frame"></pre>
+<pre class="line current"><span class="ws">        </span>return self.wsgi_app(environ, start_response)<img src="./requests.exceptions.JSONDecodeError_ Expecting value_ line 1 column 1 (char 0) __ Werkzeug Debugger_files/console.png" title="Open an interactive python shell in this frame"></pre></div>
+</div>
+
+</li><li><div class="frame" id="frame-2374647321088">
+  <h4>File <cite class="filename">"C:\Users\shell\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py"</cite>,
+      line <em class="line">1476</em>,
+      in <code class="function">wsgi_app</code></h4>
+  <div class="source library"><pre class="line before"><span class="ws">            </span>try:<img src="./requests.exceptions.JSONDecodeError_ Expecting value_ line 1 column 1 (char 0) __ Werkzeug Debugger_files/console.png" title="Open an interactive python shell in this frame"></pre>
+<pre class="line before"><span class="ws">                </span>ctx.push()<img src="./requests.exceptions.JSONDecodeError_ Expecting value_ line 1 column 1 (char 0) __ Werkzeug Debugger_files/console.png" title="Open an interactive python shell in this frame"></pre>
+<pre class="line before"><span class="ws">                </span>response = self.full_dispatch_request()<img src="./requests.exceptions.JSONDecodeError_ Expecting value_ line 1 column 1 (char 0) __ Werkzeug Debugger_files/console.png" title="Open an interactive python shell in this frame"></pre>
+<pre class="line before"><span class="ws">            </span>except Exception as e:<img src="./requests.exceptions.JSONDecodeError_ Expecting value_ line 1 column 1 (char 0) __ Werkzeug Debugger_files/console.png" title="Open an interactive python shell in this frame"></pre>
+<pre class="line before"><span class="ws">                </span>error = e<img src="./requests.exceptions.JSONDecodeError_ Expecting value_ line 1 column 1 (char 0) __ Werkzeug Debugger_files/console.png" title="Open an interactive python shell in this frame"></pre>
+<pre class="line current"><span class="ws">                </span>response = self.handle_exception(e)<img src="./requests.exceptions.JSONDecodeError_ Expecting value_ line 1 column 1 (char 0) __ Werkzeug Debugger_files/console.png" title="Open an interactive python shell in this frame"></pre>
+<pre class="line after"><span class="ws">            </span>except:  # noqa: B001<img src="./requests.exceptions.JSONDecodeError_ Expecting value_ line 1 column 1 (char 0) __ Werkzeug Debugger_files/console.png" title="Open an interactive python shell in this frame"></pre>
+<pre class="line after"><span class="ws">                </span>error = sys.exc_info()[1]<img src="./requests.exceptions.JSONDecodeError_ Expecting value_ line 1 column 1 (char 0) __ Werkzeug Debugger_files/console.png" title="Open an interactive python shell in this frame"></pre>
+<pre class="line after"><span class="ws">                </span>raise<img src="./requests.exceptions.JSONDecodeError_ Expecting value_ line 1 column 1 (char 0) __ Werkzeug Debugger_files/console.png" title="Open an interactive python shell in this frame"></pre>
+<pre class="line after"><span class="ws">            </span>return response(environ, start_response)<img src="./requests.exceptions.JSONDecodeError_ Expecting value_ line 1 column 1 (char 0) __ Werkzeug Debugger_files/console.png" title="Open an interactive python shell in this frame"></pre>
+<pre class="line after"><span class="ws">        </span>finally:<img src="./requests.exceptions.JSONDecodeError_ Expecting value_ line 1 column 1 (char 0) __ Werkzeug Debugger_files/console.png" title="Open an interactive python shell in this frame"></pre></div>
+</div>
+
+</li><li><div class="frame" id="frame-2374647321200">
+  <h4>File <cite class="filename">"C:\Users\shell\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py"</cite>,
+      line <em class="line">1473</em>,
+      in <code class="function">wsgi_app</code></h4>
+  <div class="source library"><pre class="line before"><span class="ws">        </span>ctx = self.request_context(environ)<img src="./requests.exceptions.JSONDecodeError_ Expecting value_ line 1 column 1 (char 0) __ Werkzeug Debugger_files/console.png" title="Open an interactive python shell in this frame"></pre>
+<pre class="line before"><span class="ws">        </span>error: BaseException | None = None<img src="./requests.exceptions.JSONDecodeError_ Expecting value_ line 1 column 1 (char 0) __ Werkzeug Debugger_files/console.png" title="Open an interactive python shell in this frame"></pre>
+<pre class="line before"><span class="ws">        </span>try:<img src="./requests.exceptions.JSONDecodeError_ Expecting value_ line 1 column 1 (char 0) __ Werkzeug Debugger_files/console.png" title="Open an interactive python shell in this frame"></pre>
+<pre class="line before"><span class="ws">            </span>try:<img src="./requests.exceptions.JSONDecodeError_ Expecting value_ line 1 column 1 (char 0) __ Werkzeug Debugger_files/console.png" title="Open an interactive python shell in this frame"></pre>
+<pre class="line before"><span class="ws">                </span>ctx.push()<img src="./requests.exceptions.JSONDecodeError_ Expecting value_ line 1 column 1 (char 0) __ Werkzeug Debugger_files/console.png" title="Open an interactive python shell in this frame"></pre>
+<pre class="line current"><span class="ws">                </span>response = self.full_dispatch_request()<img src="./requests.exceptions.JSONDecodeError_ Expecting value_ line 1 column 1 (char 0) __ Werkzeug Debugger_files/console.png" title="Open an interactive python shell in this frame"></pre>
+<pre class="line after"><span class="ws">            </span>except Exception as e:<img src="./requests.exceptions.JSONDecodeError_ Expecting value_ line 1 column 1 (char 0) __ Werkzeug Debugger_files/console.png" title="Open an interactive python shell in this frame"></pre>
+<pre class="line after"><span class="ws">                </span>error = e<img src="./requests.exceptions.JSONDecodeError_ Expecting value_ line 1 column 1 (char 0) __ Werkzeug Debugger_files/console.png" title="Open an interactive python shell in this frame"></pre>
+<pre class="line after"><span class="ws">                </span>response = self.handle_exception(e)<img src="./requests.exceptions.JSONDecodeError_ Expecting value_ line 1 column 1 (char 0) __ Werkzeug Debugger_files/console.png" title="Open an interactive python shell in this frame"></pre>
+<pre class="line after"><span class="ws">            </span>except:  # noqa: B001<img src="./requests.exceptions.JSONDecodeError_ Expecting value_ line 1 column 1 (char 0) __ Werkzeug Debugger_files/console.png" title="Open an interactive python shell in this frame"></pre>
+<pre class="line after"><span class="ws">                </span>error = sys.exc_info()[1]<img src="./requests.exceptions.JSONDecodeError_ Expecting value_ line 1 column 1 (char 0) __ Werkzeug Debugger_files/console.png" title="Open an interactive python shell in this frame"></pre></div>
+</div>
+
+</li><li><div class="frame" id="frame-2374647321312">
+  <h4>File <cite class="filename">"C:\Users\shell\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py"</cite>,
+      line <em class="line">882</em>,
+      in <code class="function">full_dispatch_request</code></h4>
+  <div class="source library"><pre class="line before"><span class="ws">            </span>request_started.send(self, _async_wrapper=self.ensure_sync)<img src="./requests.exceptions.JSONDecodeError_ Expecting value_ line 1 column 1 (char 0) __ Werkzeug Debugger_files/console.png" title="Open an interactive python shell in this frame"></pre>
+<pre class="line before"><span class="ws">            </span>rv = self.preprocess_request()<img src="./requests.exceptions.JSONDecodeError_ Expecting value_ line 1 column 1 (char 0) __ Werkzeug Debugger_files/console.png" title="Open an interactive python shell in this frame"></pre>
+<pre class="line before"><span class="ws">            </span>if rv is None:<img src="./requests.exceptions.JSONDecodeError_ Expecting value_ line 1 column 1 (char 0) __ Werkzeug Debugger_files/console.png" title="Open an interactive python shell in this frame"></pre>
+<pre class="line before"><span class="ws">                </span>rv = self.dispatch_request()<img src="./requests.exceptions.JSONDecodeError_ Expecting value_ line 1 column 1 (char 0) __ Werkzeug Debugger_files/console.png" title="Open an interactive python shell in this frame"></pre>
+<pre class="line before"><span class="ws">        </span>except Exception as e:<img src="./requests.exceptions.JSONDecodeError_ Expecting value_ line 1 column 1 (char 0) __ Werkzeug Debugger_files/console.png" title="Open an interactive python shell in this frame"></pre>
+<pre class="line current"><span class="ws">            </span>rv = self.handle_user_exception(e)<img src="./requests.exceptions.JSONDecodeError_ Expecting value_ line 1 column 1 (char 0) __ Werkzeug Debugger_files/console.png" title="Open an interactive python shell in this frame"></pre>
+<pre class="line after"><span class="ws">        </span>return self.finalize_request(rv)<img src="./requests.exceptions.JSONDecodeError_ Expecting value_ line 1 column 1 (char 0) __ Werkzeug Debugger_files/console.png" title="Open an interactive python shell in this frame"></pre>
+<pre class="line after"><span class="ws"></span> <img src="./requests.exceptions.JSONDecodeError_ Expecting value_ line 1 column 1 (char 0) __ Werkzeug Debugger_files/console.png" title="Open an interactive python shell in this frame"></pre>
+<pre class="line after"><span class="ws">    </span>def finalize_request(<img src="./requests.exceptions.JSONDecodeError_ Expecting value_ line 1 column 1 (char 0) __ Werkzeug Debugger_files/console.png" title="Open an interactive python shell in this frame"></pre>
+<pre class="line after"><span class="ws">        </span>self,<img src="./requests.exceptions.JSONDecodeError_ Expecting value_ line 1 column 1 (char 0) __ Werkzeug Debugger_files/console.png" title="Open an interactive python shell in this frame"></pre>
+<pre class="line after"><span class="ws">        </span>rv: ft.ResponseReturnValue | HTTPException,<img src="./requests.exceptions.JSONDecodeError_ Expecting value_ line 1 column 1 (char 0) __ Werkzeug Debugger_files/console.png" title="Open an interactive python shell in this frame"></pre></div>
+</div>
+
+</li><li><div class="frame" id="frame-2374647321424">
+  <h4>File <cite class="filename">"C:\Users\shell\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py"</cite>,
+      line <em class="line">880</em>,
+      in <code class="function">full_dispatch_request</code></h4>
+  <div class="source library"><pre class="line before"><span class="ws"></span> <img src="./requests.exceptions.JSONDecodeError_ Expecting value_ line 1 column 1 (char 0) __ Werkzeug Debugger_files/console.png" title="Open an interactive python shell in this frame"></pre>
+<pre class="line before"><span class="ws">        </span>try:<img src="./requests.exceptions.JSONDecodeError_ Expecting value_ line 1 column 1 (char 0) __ Werkzeug Debugger_files/console.png" title="Open an interactive python shell in this frame"></pre>
+<pre class="line before"><span class="ws">            </span>request_started.send(self, _async_wrapper=self.ensure_sync)<img src="./requests.exceptions.JSONDecodeError_ Expecting value_ line 1 column 1 (char 0) __ Werkzeug Debugger_files/console.png" title="Open an interactive python shell in this frame"></pre>
+<pre class="line before"><span class="ws">            </span>rv = self.preprocess_request()<img src="./requests.exceptions.JSONDecodeError_ Expecting value_ line 1 column 1 (char 0) __ Werkzeug Debugger_files/console.png" title="Open an interactive python shell in this frame"></pre>
+<pre class="line before"><span class="ws">            </span>if rv is None:<img src="./requests.exceptions.JSONDecodeError_ Expecting value_ line 1 column 1 (char 0) __ Werkzeug Debugger_files/console.png" title="Open an interactive python shell in this frame"></pre>
+<pre class="line current"><span class="ws">                </span>rv = self.dispatch_request()<img src="./requests.exceptions.JSONDecodeError_ Expecting value_ line 1 column 1 (char 0) __ Werkzeug Debugger_files/console.png" title="Open an interactive python shell in this frame"></pre>
+<pre class="line after"><span class="ws">        </span>except Exception as e:<img src="./requests.exceptions.JSONDecodeError_ Expecting value_ line 1 column 1 (char 0) __ Werkzeug Debugger_files/console.png" title="Open an interactive python shell in this frame"></pre>
+<pre class="line after"><span class="ws">            </span>rv = self.handle_user_exception(e)<img src="./requests.exceptions.JSONDecodeError_ Expecting value_ line 1 column 1 (char 0) __ Werkzeug Debugger_files/console.png" title="Open an interactive python shell in this frame"></pre>
+<pre class="line after"><span class="ws">        </span>return self.finalize_request(rv)<img src="./requests.exceptions.JSONDecodeError_ Expecting value_ line 1 column 1 (char 0) __ Werkzeug Debugger_files/console.png" title="Open an interactive python shell in this frame"></pre>
+<pre class="line after"><span class="ws"></span> <img src="./requests.exceptions.JSONDecodeError_ Expecting value_ line 1 column 1 (char 0) __ Werkzeug Debugger_files/console.png" title="Open an interactive python shell in this frame"></pre>
+<pre class="line after"><span class="ws">    </span>def finalize_request(<img src="./requests.exceptions.JSONDecodeError_ Expecting value_ line 1 column 1 (char 0) __ Werkzeug Debugger_files/console.png" title="Open an interactive python shell in this frame"></pre></div>
+</div>
+
+</li><li><div class="frame" id="frame-2374647321536">
+  <h4>File <cite class="filename">"C:\Users\shell\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py"</cite>,
+      line <em class="line">865</em>,
+      in <code class="function">dispatch_request</code></h4>
+  <div class="source library"><pre class="line before"><span class="ws">            </span>and req.method == "OPTIONS"<img src="./requests.exceptions.JSONDecodeError_ Expecting value_ line 1 column 1 (char 0) __ Werkzeug Debugger_files/console.png" title="Open an interactive python shell in this frame"></pre>
+<pre class="line before"><span class="ws">        </span>):<img src="./requests.exceptions.JSONDecodeError_ Expecting value_ line 1 column 1 (char 0) __ Werkzeug Debugger_files/console.png" title="Open an interactive python shell in this frame"></pre>
+<pre class="line before"><span class="ws">            </span>return self.make_default_options_response()<img src="./requests.exceptions.JSONDecodeError_ Expecting value_ line 1 column 1 (char 0) __ Werkzeug Debugger_files/console.png" title="Open an interactive python shell in this frame"></pre>
+<pre class="line before"><span class="ws">        </span># otherwise dispatch to the handler for that endpoint<img src="./requests.exceptions.JSONDecodeError_ Expecting value_ line 1 column 1 (char 0) __ Werkzeug Debugger_files/console.png" title="Open an interactive python shell in this frame"></pre>
+<pre class="line before"><span class="ws">        </span>view_args: dict[str, t.Any] = req.view_args  # type: ignore[assignment]<img src="./requests.exceptions.JSONDecodeError_ Expecting value_ line 1 column 1 (char 0) __ Werkzeug Debugger_files/console.png" title="Open an interactive python shell in this frame"></pre>
+<pre class="line current"><span class="ws">        </span>return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]<img src="./requests.exceptions.JSONDecodeError_ Expecting value_ line 1 column 1 (char 0) __ Werkzeug Debugger_files/console.png" title="Open an interactive python shell in this frame"></pre>
+<pre class="line after"><span class="ws"></span> <img src="./requests.exceptions.JSONDecodeError_ Expecting value_ line 1 column 1 (char 0) __ Werkzeug Debugger_files/console.png" title="Open an interactive python shell in this frame"></pre>
+<pre class="line after"><span class="ws">    </span>def full_dispatch_request(self) -&gt; Response:<img src="./requests.exceptions.JSONDecodeError_ Expecting value_ line 1 column 1 (char 0) __ Werkzeug Debugger_files/console.png" title="Open an interactive python shell in this frame"></pre>
+<pre class="line after"><span class="ws">        </span>"""Dispatches the request and on top of that performs request<img src="./requests.exceptions.JSONDecodeError_ Expecting value_ line 1 column 1 (char 0) __ Werkzeug Debugger_files/console.png" title="Open an interactive python shell in this frame"></pre>
+<pre class="line after"><span class="ws">        </span>pre and postprocessing as well as HTTP exception catching and<img src="./requests.exceptions.JSONDecodeError_ Expecting value_ line 1 column 1 (char 0) __ Werkzeug Debugger_files/console.png" title="Open an interactive python shell in this frame"></pre>
+<pre class="line after"><span class="ws">        </span>error handling.<img src="./requests.exceptions.JSONDecodeError_ Expecting value_ line 1 column 1 (char 0) __ Werkzeug Debugger_files/console.png" title="Open an interactive python shell in this frame"></pre></div>
+</div>
+
+</li><li><div class="frame" id="frame-2374647321648">
+  <h4>File <cite class="filename">"c:\Users\shell\OneDrive\Documents\HOC-hackathon\app.py"</cite>,
+      line <em class="line">137</em>,
+      in <code class="function">articles</code></h4>
+  <div class="source "><pre class="line before"><span class="ws"></span>def articles():<img src="./requests.exceptions.JSONDecodeError_ Expecting value_ line 1 column 1 (char 0) __ Werkzeug Debugger_files/console.png" title="Open an interactive python shell in this frame"></pre>
+<pre class="line before"><span class="ws">    </span>if request.method == 'POST':<img src="./requests.exceptions.JSONDecodeError_ Expecting value_ line 1 column 1 (char 0) __ Werkzeug Debugger_files/console.png" title="Open an interactive python shell in this frame"></pre>
+<pre class="line before"><span class="ws">        </span>query = request.form.get('search_query')<img src="./requests.exceptions.JSONDecodeError_ Expecting value_ line 1 column 1 (char 0) __ Werkzeug Debugger_files/console.png" title="Open an interactive python shell in this frame"></pre>
+<pre class="line before"><span class="ws">        </span>articles = fetch_articles(query)<img src="./requests.exceptions.JSONDecodeError_ Expecting value_ line 1 column 1 (char 0) __ Werkzeug Debugger_files/console.png" title="Open an interactive python shell in this frame"></pre>
+<pre class="line before"><span class="ws">    </span>else:<img src="./requests.exceptions.JSONDecodeError_ Expecting value_ line 1 column 1 (char 0) __ Werkzeug Debugger_files/console.png" title="Open an interactive python shell in this frame"></pre>
+<pre class="line current"><span class="ws">        </span>articles = fetch_articles()  # Fetch default articles on GET request<img src="./requests.exceptions.JSONDecodeError_ Expecting value_ line 1 column 1 (char 0) __ Werkzeug Debugger_files/console.png" title="Open an interactive python shell in this frame"></pre>
+<pre class="line after"><span class="ws"></span> <img src="./requests.exceptions.JSONDecodeError_ Expecting value_ line 1 column 1 (char 0) __ Werkzeug Debugger_files/console.png" title="Open an interactive python shell in this frame"></pre>
+<pre class="line after"><span class="ws">    </span>return render_template('articles.html', articles=articles)<img src="./requests.exceptions.JSONDecodeError_ Expecting value_ line 1 column 1 (char 0) __ Werkzeug Debugger_files/console.png" title="Open an interactive python shell in this frame"></pre>
+<pre class="line after"><span class="ws"></span> <img src="./requests.exceptions.JSONDecodeError_ Expecting value_ line 1 column 1 (char 0) __ Werkzeug Debugger_files/console.png" title="Open an interactive python shell in this frame"></pre>
+<pre class="line after"><span class="ws"></span>if __name__ == '__main__':<img src="./requests.exceptions.JSONDecodeError_ Expecting value_ line 1 column 1 (char 0) __ Werkzeug Debugger_files/console.png" title="Open an interactive python shell in this frame"></pre>
+<pre class="line after"><span class="ws">    </span>app.run(debug=True)<img src="./requests.exceptions.JSONDecodeError_ Expecting value_ line 1 column 1 (char 0) __ Werkzeug Debugger_files/console.png" title="Open an interactive python shell in this frame"></pre></div>
+</div>
+
+</li><li><div class="frame" id="frame-2374647324336">
+  <h4>File <cite class="filename">"c:\Users\shell\OneDrive\Documents\HOC-hackathon\app.py"</cite>,
+      line <em class="line">126</em>,
+      in <code class="function">fetch_articles</code></h4>
+  <div class="source "><pre class="line before"><span class="ws">    </span>print(f"Response Status Code: {response.status_code}")<img src="./requests.exceptions.JSONDecodeError_ Expecting value_ line 1 column 1 (char 0) __ Werkzeug Debugger_files/console.png" title="Open an interactive python shell in this frame"></pre>
+<pre class="line before"><span class="ws">    </span>print(f"Response Text: {response.text}")  # Add this line to inspect the response<img src="./requests.exceptions.JSONDecodeError_ Expecting value_ line 1 column 1 (char 0) __ Werkzeug Debugger_files/console.png" title="Open an interactive python shell in this frame"></pre>
+<pre class="line before"><span class="ws"></span> <img src="./requests.exceptions.JSONDecodeError_ Expecting value_ line 1 column 1 (char 0) __ Werkzeug Debugger_files/console.png" title="Open an interactive python shell in this frame"></pre>
+<pre class="line before"><span class="ws">    </span># Check if response is successful and return articles<img src="./requests.exceptions.JSONDecodeError_ Expecting value_ line 1 column 1 (char 0) __ Werkzeug Debugger_files/console.png" title="Open an interactive python shell in this frame"></pre>
+<pre class="line before"><span class="ws">    </span>if response.status_code == 200:<img src="./requests.exceptions.JSONDecodeError_ Expecting value_ line 1 column 1 (char 0) __ Werkzeug Debugger_files/console.png" title="Open an interactive python shell in this frame"></pre>
+<pre class="line current"><span class="ws">        </span>return response.json().get('data', [])<img src="./requests.exceptions.JSONDecodeError_ Expecting value_ line 1 column 1 (char 0) __ Werkzeug Debugger_files/console.png" title="Open an interactive python shell in this frame"></pre>
+<pre class="line after"><span class="ws">    </span>else:<img src="./requests.exceptions.JSONDecodeError_ Expecting value_ line 1 column 1 (char 0) __ Werkzeug Debugger_files/console.png" title="Open an interactive python shell in this frame"></pre>
+<pre class="line after"><span class="ws">        </span>print(f"Error fetching articles: {response.status_code}, {response.text}")<img src="./requests.exceptions.JSONDecodeError_ Expecting value_ line 1 column 1 (char 0) __ Werkzeug Debugger_files/console.png" title="Open an interactive python shell in this frame"></pre>
+<pre class="line after"><span class="ws">        </span>return []<img src="./requests.exceptions.JSONDecodeError_ Expecting value_ line 1 column 1 (char 0) __ Werkzeug Debugger_files/console.png" title="Open an interactive python shell in this frame"></pre>
+<pre class="line after"><span class="ws"></span> <img src="./requests.exceptions.JSONDecodeError_ Expecting value_ line 1 column 1 (char 0) __ Werkzeug Debugger_files/console.png" title="Open an interactive python shell in this frame"></pre>
+<pre class="line after"><span class="ws"></span>@app.route('/articles', methods=['GET', 'POST'])<img src="./requests.exceptions.JSONDecodeError_ Expecting value_ line 1 column 1 (char 0) __ Werkzeug Debugger_files/console.png" title="Open an interactive python shell in this frame"></pre></div>
+</div>
+
+</li><li><div class="frame" id="frame-2374647324448">
+  <h4>File <cite class="filename">"C:\Users\shell\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\models.py"</cite>,
+      line <em class="line">975</em>,
+      in <code class="function">json</code></h4>
+  <div class="source library"><pre class="line before"><span class="ws">        </span>try:<img src="./requests.exceptions.JSONDecodeError_ Expecting value_ line 1 column 1 (char 0) __ Werkzeug Debugger_files/console.png" title="Open an interactive python shell in this frame"></pre>
+<pre class="line before"><span class="ws">            </span>return complexjson.loads(self.text, **kwargs)<img src="./requests.exceptions.JSONDecodeError_ Expecting value_ line 1 column 1 (char 0) __ Werkzeug Debugger_files/console.png" title="Open an interactive python shell in this frame"></pre>
+<pre class="line before"><span class="ws">        </span>except JSONDecodeError as e:<img src="./requests.exceptions.JSONDecodeError_ Expecting value_ line 1 column 1 (char 0) __ Werkzeug Debugger_files/console.png" title="Open an interactive python shell in this frame"></pre>
+<pre class="line before"><span class="ws">            </span># Catch JSON-related errors and raise as requests.JSONDecodeError<img src="./requests.exceptions.JSONDecodeError_ Expecting value_ line 1 column 1 (char 0) __ Werkzeug Debugger_files/console.png" title="Open an interactive python shell in this frame"></pre>
+<pre class="line before"><span class="ws">            </span># This aliases json.JSONDecodeError and simplejson.JSONDecodeError<img src="./requests.exceptions.JSONDecodeError_ Expecting value_ line 1 column 1 (char 0) __ Werkzeug Debugger_files/console.png" title="Open an interactive python shell in this frame"></pre>
+<pre class="line current"><span class="ws">            </span>raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)<img src="./requests.exceptions.JSONDecodeError_ Expecting value_ line 1 column 1 (char 0) __ Werkzeug Debugger_files/console.png" title="Open an interactive python shell in this frame"></pre>
+<pre class="line after"><span class="ws"></span> <img src="./requests.exceptions.JSONDecodeError_ Expecting value_ line 1 column 1 (char 0) __ Werkzeug Debugger_files/console.png" title="Open an interactive python shell in this frame"></pre>
+<pre class="line after"><span class="ws">    </span>@property<img src="./requests.exceptions.JSONDecodeError_ Expecting value_ line 1 column 1 (char 0) __ Werkzeug Debugger_files/console.png" title="Open an interactive python shell in this frame"></pre>
+<pre class="line after"><span class="ws">    </span>def links(self):<img src="./requests.exceptions.JSONDecodeError_ Expecting value_ line 1 column 1 (char 0) __ Werkzeug Debugger_files/console.png" title="Open an interactive python shell in this frame"></pre>
+<pre class="line after"><span class="ws">        </span>"""Returns the parsed header links of the response, if any."""<img src="./requests.exceptions.JSONDecodeError_ Expecting value_ line 1 column 1 (char 0) __ Werkzeug Debugger_files/console.png" title="Open an interactive python shell in this frame"></pre>
+<pre class="line after"><span class="ws"></span> <img src="./requests.exceptions.JSONDecodeError_ Expecting value_ line 1 column 1 (char 0) __ Werkzeug Debugger_files/console.png" title="Open an interactive python shell in this frame"></pre></div>
+</div>
+</li></ul>
+  <blockquote>requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+</blockquote>
+</div>
+
+<div class="plain hidden">
+    <p>
+      This is the Copy/Paste friendly version of the traceback.
+    </p>
+    <pre>Traceback (most recent call last):
+  File "C:\Users\shell\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\models.py", line 971, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\shell\AppData\Local\Programs\Python\Python39\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\shell\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\shell\AppData\Local\Programs\Python\Python39\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\shell\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1498, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "C:\Users\shell\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1476, in wsgi_app
+    response = self.handle_exception(e)
+  File "C:\Users\shell\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\shell\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\shell\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\shell\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "c:\Users\shell\OneDrive\Documents\HOC-hackathon\app.py", line 137, in articles
+    articles = fetch_articles()  # Fetch default articles on GET request
+  File "c:\Users\shell\OneDrive\Documents\HOC-hackathon\app.py", line 126, in fetch_articles
+    return response.json().get('data', [])
+  File "C:\Users\shell\AppData\Local\Programs\Python\Python39\lib\site-packages\requests\models.py", line 975, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+</pre>
+</div>
+<div class="explanation">
+  The debugger caught an exception in your WSGI application.  You can now
+  look at the traceback which led to the error.  <span class=""><p>To switch between the interactive traceback and the plaintext one, you can click on the "Traceback" headline. From the text traceback you can also create a paste of it. For code execution mouse-over the frame you want to debug and click on the console icon on the right side.</p><p>You can execute arbitrary Python code in the stack frames and there are some extra helpers available for introspection:</p><ul><li><code>dump()</code> shows all variables in the frame</li><li><code>dump(obj)</code> dumps all that's known about the object</li></ul></span>
+</div>
+      <div class="footer">
+        Brought to you by <strong class="arthur">DON'T PANIC</strong>, your
+        friendly Werkzeug powered traceback interpreter.
+      </div>
+    </div>
+
+    <div class="pin-prompt">
+      <div class="inner">
+        <h3>Console Locked</h3>
+        <p>
+          The console is locked and needs to be unlocked by entering the PIN.
+          You can find the PIN printed out on the standard output of your
+          shell that runs the server.
+        </p><form>
+          <p>PIN:
+            <input type="text" name="pin" size="14">
+            <input type="submit" name="btn" value="Confirm Pin">
+        </p></form>
+      </div>
+    </div>
+  
+
+
+
+</body></html>
